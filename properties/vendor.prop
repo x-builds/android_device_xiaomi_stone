@@ -222,9 +222,9 @@ ro.surface_flinger.set_idle_timer_ms=1000
 ro.surface_flinger.set_touch_timer_ms=200
 ro.surface_flinger.use_content_detection_for_refresh_rate=false
 
-# SkiaGL Threaded
-debug.renderengine.backend=skiaglthreaded
-debug.hwui.renderer=skiagl
+# SkiaVK Threaded
+debug.renderengine.backend=skiavkthreaded
+debug.hwui.renderer=skiavk
 renderthread.skia.reduceopstasksplitting=true
 
 # Graphics
@@ -273,6 +273,7 @@ vendor.gralloc.disable_ubwc=0
 
 # HWUI
 ro.hwui.render_ahead=10
+ro.hwui.use_vulkan=true
 
 # Media
 debug.stagefright.c2inputsurface=-1
