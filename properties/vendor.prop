@@ -273,7 +273,6 @@ vendor.gralloc.disable_ubwc=0
 
 # HWUI
 ro.hwui.render_ahead=10
-ro.hwui.use_vulkan=true
 
 # Media
 debug.stagefright.c2inputsurface=-1
