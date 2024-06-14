@@ -6,6 +6,9 @@
 
 DEVICE_PATH := device/xiaomi/stone
 
+#VULKAN
+TARGET_USES_VULKAN := true
+
 # A/B
 AB_OTA_UPDATER := true
 
